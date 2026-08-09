@@ -2,13 +2,13 @@
 <html lang="zh-TW">
 <head>
 <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'sha256-dXuP1J8wmSTHI5yK7YsuxkUuHC0d6CxU3lwTXT87w+M=' 'sha256-vO8QpRNj/iz3tr2lrt88eRKK67Cg+VdA4j5nely+OYI='; connect-src 'self'; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'; upgrade-insecure-requests"/>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'sha256-AXtlFnO9KMggmn9er2nSgfz3vBm2CHOJ6QzAjwMoU64=' 'sha256-dXxoeELQyvSIAq5Ud1vXgUpLarUVzS8vUITvceGxzK4='; connect-src 'self'; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'; upgrade-insecure-requests"/>
 <meta name="referrer" content="strict-origin-when-cross-origin"/>
 <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()"/>
-<meta name="description" content="KC 高齊的個人作品集：結合品牌視覺、行銷企劃、內容製作與精品零售經驗，讓創意成為能被看見的品牌故事。"/>
+<meta name="description" content="KC 高齊的個人作品集：收錄品牌視覺、內容製作、3D 視覺與消費者研究作品，並整理相關實務經驗。"/>
 <link rel="canonical" href="https://kc09393.github.io/kc-portfolio-next/"/>
 <meta property="og:title" content="KC 作品集｜品牌視覺 × 行銷企劃"/>
-<meta property="og:description" content="品牌視覺、行銷企劃、內容製作與精品零售經驗。"/>
+<meta property="og:description" content="品牌視覺、內容製作、3D 視覺與時尚零售實務。"/>
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="https://kc09393.github.io/kc-portfolio-next/"/>
 <meta property="og:site_name" content="KC 作品集"/>
@@ -19,7 +19,7 @@
 <meta property="og:image:alt" content="高齊 KC — Portrait"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="KC 作品集｜品牌視覺 × 行銷企劃"/>
-<meta name="twitter:description" content="品牌視覺、行銷企劃、內容製作與精品零售經驗。"/>
+<meta name="twitter:description" content="品牌視覺、內容製作、3D 視覺與時尚零售實務。"/>
 <meta name="twitter:image" content="imgs/about-photo.jpg"/>
 <meta name="theme-color" content="#090909"/>
 <title>KC 作品集｜品牌視覺 × 行銷企劃</title>
@@ -37,9 +37,9 @@
   "image": "imgs/about-photo.jpg",
   "email": "mailto:chi093093chi@gmail.com",
   "sameAs": ["https://www.instagram.com/kc_93_/"],
-  "jobTitle": "Fashion Marketing & Brand Visual Specialist",
-  "description": "KC 高齊的個人作品集：結合品牌視覺、行銷企劃、內容製作與精品零售經驗。",
-  "knowsAbout": ["Fashion Marketing","Brand Visual","Event Planning","Retail Management","Adobe Creative Suite","Social Media Marketing"],
+  "jobTitle": "Fashion Business Student · Visual Design",
+  "description": "KC 高齊的個人作品集：結合品牌視覺、內容製作、3D 視覺與時尚零售實務。",
+  "knowsAbout": ["Fashion Marketing","Brand Visual","Event Support","Retail Management","Adobe Creative Suite","Social Content"],
   "address": {"@type":"PostalAddress","addressLocality":"Taichung","addressCountry":"TW"}
 }
 </script>
@@ -526,12 +526,12 @@ footer{border-color:var(--line)}
 /* REAL CASE EVIDENCE */
 .case-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.case-card,.case-ip{min-height:0;padding:28px}.case-evidence{position:relative;margin:24px 0 0;border:1px solid rgba(226,196,140,.28);background:#e8e2d6;aspect-ratio:16/9;overflow:hidden}.case-evidence img{display:block;width:100%;height:100%;object-fit:contain}.case-copy{margin-top:21px!important}.case-open{margin-top:auto!important}.case-card::after{width:38px;height:38px}.case-scent{background:linear-gradient(145deg,#151713,#0d0e0d 76%)}@media(max-width:700px){.case-grid{grid-template-columns:1fr;gap:14px}.case-card,.case-ip{min-height:0;padding:22px}.case-evidence{margin-top:19px}.case-copy{margin-top:19px!important}.case-card h3{font-size:32px}}
 
-</style>
+.skip-link{position:fixed;top:-60px;left:20px;z-index:9999;background:var(--gld);color:#1c1a17;padding:8px 16px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;border-radius:2px;transition:top .2s}.skip-link:focus{top:20px}</style>
 </head>
 <body>
 
 <!-- INTRO -->
-<a href="#about" style="position:fixed;top:-60px;left:20px;z-index:9999;background:var(--gld);color:#1c1a17;padding:8px 16px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;border-radius:2px;transition:top .2s" onfocus="this.style.top='20px'" onblur="this.style.top='-60px'">Skip to Content</a>
+<a href="#about" class="skip-link">前往主要內容</a>
 <div id="intro">
   <div class="intro-logo">KC</div>
   <div class="intro-line"></div>
@@ -562,21 +562,21 @@ footer{border-color:var(--line)}
   <div class="h-grain"></div>
   <div class="h-vline"></div>
   <div class="h-top">
-    <div class="h-eyebrow"><span class="h-ey-static">高齊 KC &nbsp;·&nbsp; </span><span class="h-ey-type">Brand Visual · Marketing · Creative Direction</span></div>
+    <div class="h-eyebrow"><span class="h-ey-static">高齊 KC &nbsp;·&nbsp; </span><span class="h-ey-type">Brand Visual · Content Planning · 3D Visual</span></div>
     <span class="h-year">Portfolio &nbsp;·&nbsp; 2026</span>
   </div>
   <div class="h-center">
-    <h1 class="h-title">把想法變成<span class="line2"><em>被看見的品牌</em></span></h1>
-    <span class="h-title-en">Brand stories, made visible.</span>
+    <h1 class="h-title">用視覺，讓<span class="line2"><em>品牌訊息更清楚</em></span></h1>
+    <span class="h-title-en">Clear visual communication, made with care.</span>
     <div class="h-bottom">
-      <p class="h-sub" id="hero-sub">我是 KC，專注於品牌視覺、行銷企劃與內容製作。從概念、畫面到執行細節，讓每一次溝通都更清楚、更有記憶點。</p>
+      <p class="h-sub" id="hero-sub">我是 KC，目前就讀時尚經營系，持續累積品牌視覺、內容製作與零售現場的實務經驗。希望用清楚的畫面與整理過的資訊，協助品牌把重點說得更容易被理解。</p>
       <div class="h-cta-wrap">
         <a href="#work" class="h-cta"><span class="cta-ln"></span><span>查看作品</span></a>
-        <a href="#contact" class="h-cta"><span class="cta-ln"></span><span>開始合作</span></a>
+        <a href="#contact" class="h-cta"><span class="cta-ln"></span><span>聯絡我</span></a>
       </div>
     </div>
   </div>
-  <div class="h-scr" style="cursor:pointer" onclick="document.querySelector('.marquee-wrap').scrollIntoView({behavior:'smooth'})"><span>Scroll</span><div class="scr-bar"></div></div>
+  <div class="h-scr" id="hero-scroll" style="cursor:pointer" role="button" tabindex="0" aria-label="前往內容"><span>Scroll</span><div class="scr-bar"></div></div>
 </section>
 
 
@@ -587,27 +587,27 @@ footer{border-color:var(--line)}
     <div class="marquee-item">Fashion Marketing<span class="marquee-sep"></span></div>
     <div class="marquee-item">Brand Visual<span class="marquee-sep"></span></div>
     <div class="marquee-item">Adobe Certified<span class="marquee-sep"></span></div>
-    <div class="marquee-item">Creative Direction<span class="marquee-sep"></span></div>
-    <div class="marquee-item">Consumer Research<span class="marquee-sep"></span></div>
-    <div class="marquee-item">Visual Merchandising<span class="marquee-sep"></span></div>
-    <div class="marquee-item">Social Media Marketing<span class="marquee-sep"></span></div>
-    <div class="marquee-item">Event Planning<span class="marquee-sep"></span></div>
-    <div class="marquee-item">Luxury Retail<span class="marquee-sep"></span></div>
-    <div class="marquee-item">Color Theory<span class="marquee-sep"></span></div>
+    <div class="marquee-item">Content Planning<span class="marquee-sep"></span></div>
+    <div class="marquee-item">Consumer Insight<span class="marquee-sep"></span></div>
+    <div class="marquee-item">Retail Visual<span class="marquee-sep"></span></div>
+    <div class="marquee-item">Social Content<span class="marquee-sep"></span></div>
+    <div class="marquee-item">Event Support<span class="marquee-sep"></span></div>
+    <div class="marquee-item">Retail Experience<span class="marquee-sep"></span></div>
+    <div class="marquee-item">Color & Layout<span class="marquee-sep"></span></div>
     <div class="marquee-item">Typography<span class="marquee-sep"></span></div>
-    <div class="marquee-item">Art Direction<span class="marquee-sep"></span></div>
+    <div class="marquee-item">3D Visual Studies<span class="marquee-sep"></span></div>
     <div class="marquee-item">Fashion Marketing<span class="marquee-sep"></span></div>
     <div class="marquee-item">Brand Visual<span class="marquee-sep"></span></div>
     <div class="marquee-item">Adobe Certified<span class="marquee-sep"></span></div>
-    <div class="marquee-item">Creative Direction<span class="marquee-sep"></span></div>
-    <div class="marquee-item">Consumer Research<span class="marquee-sep"></span></div>
-    <div class="marquee-item">Visual Merchandising<span class="marquee-sep"></span></div>
-    <div class="marquee-item">Social Media Marketing<span class="marquee-sep"></span></div>
-    <div class="marquee-item">Event Planning<span class="marquee-sep"></span></div>
-    <div class="marquee-item">Luxury Retail<span class="marquee-sep"></span></div>
-    <div class="marquee-item">Color Theory<span class="marquee-sep"></span></div>
+    <div class="marquee-item">Content Planning<span class="marquee-sep"></span></div>
+    <div class="marquee-item">Consumer Insight<span class="marquee-sep"></span></div>
+    <div class="marquee-item">Retail Visual<span class="marquee-sep"></span></div>
+    <div class="marquee-item">Social Content<span class="marquee-sep"></span></div>
+    <div class="marquee-item">Event Support<span class="marquee-sep"></span></div>
+    <div class="marquee-item">Retail Experience<span class="marquee-sep"></span></div>
+    <div class="marquee-item">Color & Layout<span class="marquee-sep"></span></div>
     <div class="marquee-item">Typography<span class="marquee-sep"></span></div>
-    <div class="marquee-item">Art Direction<span class="marquee-sep"></span></div>
+    <div class="marquee-item">3D Visual Studies<span class="marquee-sep"></span></div>
   </div>
 </div>
 
@@ -634,14 +634,14 @@ footer{border-color:var(--line)}
       <div class="a-img"><img src="imgs/about-photo.jpg" alt="高齊 KC — Portrait" loading="lazy"/></div>
     </div>
     <div style="margin-top:16px;display:flex;align-items:center;justify-content:space-between">
-      <div class="a-caption" style="margin-top:0">高齊 KC · 台灣 · 時尚視覺設計</div>
+      <div class="a-caption" style="margin-top:0">高齊 KC · 台中 · 時尚經營與視覺設計</div>
     </div>
   </div>
   <div>
     <div class="s-label"><span style="font-family:var(--serif);font-size:13px;color:rgba(201,169,110,.3);margin-right:12px;font-style:normal;font-weight:600">00.</span>About</div>
     <h2 class="a-name reveal">高齊 <em>KC</em></h2>
-    <div class="a-en reveal">Kao Chi &nbsp;·&nbsp; Fashion &amp; Visual Design &nbsp;·&nbsp; Taiwan</div>
-    <p class="a-bio reveal" id="about-bio">我是 KC，一位把美感和執行力放在同一張工作桌上的跨域創作者。從家族品牌的實務經驗出發，我累積了設計、攝影、行銷與活動企劃能力；擅長以清楚的視覺、合適的節奏，協助品牌把想說的話說得更有感。</p>
+    <div class="a-en reveal">Kao Chi &nbsp;·&nbsp; Fashion Business &amp; Visual Design &nbsp;·&nbsp; Taiwan</div>
+    <p class="a-bio reveal" id="about-bio">我是 KC，目前就讀嶺東科技大學時尚經營系。我的學習與實務經驗橫跨品牌視覺、內容製作、零售現場與活動支援；我習慣先理解需求，再以畫面、文案與流程整理成清楚、可執行的溝通方式。</p>
     <div class="a-contact reveal">
       <a href="mailto:chi093093chi@gmail.com" class="a-contact-link">chi093093chi@gmail.com</a>
       <span class="a-contact-sep">·</span>
@@ -728,7 +728,7 @@ footer{border-color:var(--line)}
     </div>
     <span class="w-idx">02</span>
   </div>
-  <p class="case-intro reveal">目前收錄兩個具完整資料與可公開成果的案例；專案性質、個人角色與研究分工皆如實標示。</p>
+  <p class="case-intro reveal">本區收錄可公開、資料較完整的兩個案例；每個案例都清楚標示專案性質、個人角色與團隊分工，方便快速閱讀。</p>
 
 
 
@@ -742,7 +742,7 @@ footer{border-color:var(--line)}
     <div class="case-copy">
       <p class="case-type">Role · Visual System Design</p>
       <h3>畢業主視覺<br/><em>IP 系統設計</em></h3>
-      <p>以畢業主題為情境，建立原創角色、視覺規則與延伸應用，完成可用於宣傳物與服裝的系統設計。</p>
+      <p>以畢業主題為設計情境，從角色設定延伸到主視覺與應用物，練習把單一概念整理成一致的視覺系統。</p>
       <div class="case-tags"><span>角色設定</span><span>主視覺系統</span><span>應用設計</span></div>
     </div>
     <button type="button" class="case-open" data-case="ip" aria-label="查看畢業主視覺 IP 系統設計案例內容">查看案例內容</button>
@@ -750,7 +750,7 @@ footer{border-color:var(--line)}
   </article>
   <article class="case-card case-scent reveal" data-case="scent">
     <span class="case-index" aria-hidden="true">02</span>
-    <div class="case-kicker">Team Consumer Research</div>
+    <div class="case-kicker">Team Consumer Insight</div>
     <div class="case-evidence">
       <img src="imgs/cases/scent-results-sheet.png" alt="香水偏好消費者研究的研究結果頁面" loading="lazy"/>
     </div>
@@ -758,7 +758,7 @@ footer{border-color:var(--line)}
       <div class="case-stat"><strong>207</strong><span>份有效問卷</span></div>
       <p class="case-type">Role · Research Team Member</p>
       <h3>香水偏好研究<br/><em>消費者洞察</em></h3>
-      <p>以問卷與統計分析比較世代、性別、香調與選購因素，將資料轉成品牌溝通可參考的受眾觀察。</p>
+      <p>以問卷與統計分析比較世代、性別、香調與選購因素，將資料整理成可供品牌溝通參考的受眾觀察。</p>
       <div class="case-tags"><span>問卷研究</span><span>統計分析</span><span>洞察整理</span></div>
     </div>
     <button type="button" class="case-open" data-case="scent" aria-label="查看香水偏好研究消費者洞察案例內容">查看案例內容</button>
@@ -787,7 +787,7 @@ footer{border-color:var(--line)}
             <div class="tl-period">時尚零售 · 視覺</div>
             <div class="tl-job">後台管理 &amp; 美術編輯</div>
             <div class="tl-co">首爾蝶衣韓系服裝</div>
-            <div class="tl-note">負責品牌後台視覺管理，執行商品上架、視覺規劃與社群內容製作，強化品牌整體視覺一致性。</div>
+            <div class="tl-note">協助商品資料整理與上架、視覺素材製作及社群內容編排，支援品牌日常的內容與商品呈現。</div>
           </div>
         </div>
         <div class="tl-row reveal" style="transition-delay:.12s">
@@ -796,7 +796,7 @@ footer{border-color:var(--line)}
             <div class="tl-period">行銷 · 設計</div>
             <div class="tl-job">行銷規劃 &amp; 美術編輯</div>
             <div class="tl-co">鹿角寵物零食</div>
-            <div class="tl-note">統籌品牌行銷規劃與視覺美編，包含社群媒體內容策略、廣告素材設計及促銷活動視覺執行。</div>
+            <div class="tl-note">參與社群內容、廣告素材與促銷視覺製作，協助品牌以一致的畫面傳遞商品與活動資訊。</div>
           </div>
         </div>
         <div class="tl-row reveal" style="transition-delay:.24s">
@@ -805,7 +805,7 @@ footer{border-color:var(--line)}
             <div class="tl-period">企劃 · 設計</div>
             <div class="tl-job">企劃 &amp; 設計人員</div>
             <div class="tl-co">安心家農業</div>
-            <div class="tl-note">負責活動企劃與設計執行，協助品牌形象建立、行銷物料製作及活動流程規劃與資源整合。</div>
+            <div class="tl-note">協助活動企劃與設計執行，包含行銷物料製作、流程整理及現場支援。</div>
           </div>
         </div>
         <div class="tl-row reveal" style="transition-delay:.36s">
@@ -814,7 +814,7 @@ footer{border-color:var(--line)}
             <div class="tl-period">精品零售</div>
             <div class="tl-job">專櫃銷售</div>
             <div class="tl-co">新光三越 · DYCTEAM</div>
-            <div class="tl-note">於新光三越百貨 DYCTEAM 品牌專櫃提供高品質的購物體驗與品牌服務。</div>
+            <div class="tl-note">於新光三越 DYCTEAM 專櫃協助顧客接待、商品介紹、陳列與日常營運支援。</div>
           </div>
         </div>
         <div class="tl-row reveal" style="transition-delay:.48s">
@@ -823,7 +823,7 @@ footer{border-color:var(--line)}
             <div class="tl-period">精品工讀</div>
             <div class="tl-job">專櫃工讀</div>
             <div class="tl-co">新光三越 · Porter &amp; Hunter</div>
-            <div class="tl-note">於新光三越日本精品 Porter 及 Hunter 專櫃累積高端精品服務與客戶管理的實務經驗。</div>
+            <div class="tl-note">於新光三越 Porter 與 Hunter 專櫃協助顧客接待、商品介紹及零售現場作業。</div>
           </div>
         </div>
       </div>
@@ -837,7 +837,7 @@ footer{border-color:var(--line)}
             <div class="tl-period">大學 · In Progress</div>
             <div class="tl-job">時尚經營系</div>
             <div class="tl-co">嶺東科技大學</div>
-            <div class="tl-note">修習品牌管理、行銷策略、時尚傳播、消費者行為等課程，結合商業邏輯與時尚美學的跨領域教育。</div>
+            <div class="tl-note">修習品牌管理、行銷策略、時尚傳播與消費者行為等課程，持續建立時尚產業與品牌溝通的基礎。</div>
           </div>
         </div>
         <div class="tl-row reveal reveal-delay">
@@ -846,7 +846,7 @@ footer{border-color:var(--line)}
             <div class="tl-period">高中 · 畢業</div>
             <div class="tl-job">美術科</div>
             <div class="tl-co">中華藝術學校</div>
-            <div class="tl-note">系統性學習油畫、素描、色彩學、設計原理等，奠定深厚的美學感知與創作能力。</div>
+            <div class="tl-note">學習油畫、素描、色彩學與設計原理，建立觀察、構圖與色彩表現的基礎。</div>
           </div>
         </div>
       </div>
@@ -873,7 +873,7 @@ footer{border-color:var(--line)}
     </div>
     <span class="w-idx">04</span>
   </div>
-  <p class="w-desc reveal" id="skills-desc">從視覺設計、影像後製到品牌行銷，我把工具當成解題方式；重點永遠是找到最適合品牌與受眾的溝通方法。</p>
+  <p class="w-desc reveal" id="skills-desc">目前使用的工具涵蓋平面設計、影像後製、3D 視覺與內容製作；我會依需求選擇合適工具，把資訊整理成容易理解的視覺成果。</p>
   <div class="sk-wrap">
     <div class="sk-block reveal">
       <div class="sk-block-lbl">設計 &amp; 視覺</div>
@@ -923,43 +923,43 @@ footer{border-color:var(--line)}
     <div class="cert-grid reveal" id="cert-grid">
     <article class="cert-card" data-cat="international" data-key="adobe_ai" data-gtype="cert" role="button" tabindex="0" aria-label="開啟 Adobe Certified Professional 證書">
       <div class="cert-img-wrap"><img class="cert-main-img" src="imgs/cert-adobe_ai.jpg" alt="Adobe Certified Professional" loading="lazy" decoding="async"/></div>
-      <div class="cert-meta"><span class="cert-chip">國際認證</span><div class="cert-meta-title">Adobe Certified Professional</div><div class="cert-meta-sub">Graphic Design &amp; Illustration &#183; Illustrator</div><p class="cert-meta-desc">Adobe 原廠頒發的國際認證，代表在 Illustrator 向量圖形、品牌 VI 設計與插畫排版上達到專業標準，是設計業界普遍認可的技術憑證。</p></div>
+      <div class="cert-meta"><span class="cert-chip">國際認證</span><div class="cert-meta-title">Adobe Certified Professional</div><div class="cert-meta-sub">Graphic Design &amp; Illustration &#183; Illustrator</div><p class="cert-meta-desc">Adobe 原廠認證，驗證 Illustrator 的向量繪圖、插畫與版面製作能力。</p></div>
     </article>
     <article class="cert-card" data-cat="international" data-key="adobe_ps" data-gtype="cert" role="button" tabindex="0" aria-label="開啟 Adobe Certified Professional 證書">
       <div class="cert-img-wrap"><img class="cert-main-img" src="imgs/cert-adobe_ps.jpg" alt="Adobe Certified Professional" loading="lazy" decoding="async"/></div>
-      <div class="cert-meta"><span class="cert-chip">國際認證</span><div class="cert-meta-title">Adobe Certified Professional</div><div class="cert-meta-sub">Visual Design &#183; Photoshop</div><p class="cert-meta-desc">Adobe 原廠認證的 Photoshop 視覺設計師，具備圖像合成、時尚修圖、商業視覺製作等國際水準能力。</p></div>
+      <div class="cert-meta"><span class="cert-chip">國際認證</span><div class="cert-meta-title">Adobe Certified Professional</div><div class="cert-meta-sub">Visual Design &#183; Photoshop</div><p class="cert-meta-desc">Adobe 原廠認證，驗證 Photoshop 的影像處理、修圖與視覺製作能力。</p></div>
     </article>
     <article class="cert-card" data-cat="international" data-key="adobe_vd" data-gtype="cert" role="button" tabindex="0" aria-label="開啟 Adobe Certified Professional 證書">
       <div class="cert-img-wrap"><img class="cert-main-img" src="imgs/cert-adobe_vd.jpg" alt="Adobe Certified Professional" loading="lazy" decoding="async"/></div>
-      <div class="cert-meta"><span class="cert-chip">國際認證</span><div class="cert-meta-title">Adobe Certified Professional</div><div class="cert-meta-sub">Visual Designer（跨平台綜合認證）</div><p class="cert-meta-desc">整合數位媒體、品牌視覺與跨軟體設計思維的 Adobe 視覺設計師綜合認證，代表具備完整的數位設計生態系能力。</p></div>
+      <div class="cert-meta"><span class="cert-chip">國際認證</span><div class="cert-meta-title">Adobe Certified Professional</div><div class="cert-meta-sub">Visual Designer（跨平台綜合認證）</div><p class="cert-meta-desc">Adobe 視覺設計綜合認證，涵蓋數位影像與平面視覺製作的基礎能力。</p></div>
     </article>
     <article class="cert-card" data-cat="professional" data-key="service_mgr" data-gtype="cert" role="button" tabindex="0" aria-label="開啟 服務業管理師 證書">
       <div class="cert-img-wrap"><img class="cert-main-img" src="imgs/cert-service_mgr.jpg" alt="服務業管理師" loading="lazy" decoding="async"/></div>
-      <div class="cert-meta"><span class="cert-chip">專業認證</span><div class="cert-meta-title">服務業管理師</div><div class="cert-meta-sub">商業服務與顧客體驗管理</div><p class="cert-meta-desc">具備顧客體驗設計、服務流程優化與品牌現場執行的商業管理能力，讓創意提案不只停在視覺，更能落地為可執行的服務體驗。</p></div>
+      <div class="cert-meta"><span class="cert-chip">專業認證</span><div class="cert-meta-title">服務業管理師</div><div class="cert-meta-sub">商業服務與顧客體驗管理</div><p class="cert-meta-desc">服務業管理相關認證，涵蓋顧客服務、現場作業與服務流程等基礎觀念。</p></div>
     </article>
     <article class="cert-card" data-cat="professional" data-key="color_mgr" data-gtype="cert" role="button" tabindex="0" aria-label="開啟 色彩規劃管理師 證書">
       <div class="cert-img-wrap"><img class="cert-main-img" src="imgs/cert-color_mgr.jpg" alt="色彩規劃管理師" loading="lazy" decoding="async"/></div>
-      <div class="cert-meta"><span class="cert-chip">專業認證</span><div class="cert-meta-title">色彩規劃管理師</div><div class="cert-meta-sub">色彩美學 &#183; 商業配色策略</div><p class="cert-meta-desc">具備色彩心理學、商業配色策略與時尚美學應用的專業知識，在品牌視覺與產品陳列上能精準運用色彩語言傳遞情感與訊息。</p></div>
+      <div class="cert-meta"><span class="cert-chip">專業認證</span><div class="cert-meta-title">色彩規劃管理師</div><div class="cert-meta-sub">色彩美學 &#183; 商業配色策略</div><p class="cert-meta-desc">色彩規劃相關認證，涵蓋色彩理論、配色與視覺應用的基礎知識。</p></div>
     </article>
     <article class="cert-card" data-cat="tech" data-key="tqc" data-gtype="cert" role="button" tabindex="0" aria-label="開啟 TQC+ 認證 證書">
       <div class="cert-img-wrap"><img class="cert-main-img" src="imgs/cert-tqc.jpg" alt="TQC+ 認證" loading="lazy" decoding="async"/></div>
-      <div class="cert-meta"><span class="cert-chip">數位技能</span><div class="cert-meta-title">TQC+ 認證</div><div class="cert-meta-sub">影像編輯製作</div><p class="cert-meta-desc">通過電腦技能基金會的影像處理技術認證，具備專業影像後製、數位輸出與素材整合的標準化技術能力。</p></div>
+      <div class="cert-meta"><span class="cert-chip">數位技能</span><div class="cert-meta-title">TQC+ 認證</div><div class="cert-meta-sub">影像編輯製作</div><p class="cert-meta-desc">通過電腦技能基金會的影像處理認證，驗證數位影像編輯與輸出能力。</p></div>
     </article>
     <article class="cert-card" data-cat="tech" data-key="tqc_powerpoint" data-gtype="cert" role="button" tabindex="0" aria-label="開啟 TQC PowerPoint 2019 證書">
       <div class="cert-img-wrap"><img class="cert-main-img" src="imgs/cert-tqc_powerpoint.jpg" alt="TQC PowerPoint 2019 證書" loading="lazy" decoding="async"/></div>
-      <div class="cert-meta"><span class="cert-chip">數位技能</span><div class="cert-meta-title">TQC PowerPoint 2019</div><div class="cert-meta-sub">簡報設計與製作</div><p class="cert-meta-desc">通過 TQC PowerPoint 2019 認證，具備簡報設計、版面編排、資訊整理與簡報製作的實務能力。</p></div>
+      <div class="cert-meta"><span class="cert-chip">數位技能</span><div class="cert-meta-title">TQC PowerPoint 2019</div><div class="cert-meta-sub">簡報設計與製作</div><p class="cert-meta-desc">通過 TQC PowerPoint 2019 認證，驗證簡報製作、版面編排與資訊整理能力。</p></div>
     </article>
     <article class="cert-card" data-cat="fashion" data-key="kaiwu" data-gtype="cert" role="button" tabindex="0" aria-label="開啟 凱渥模特兒經紀 證書">
       <div class="cert-img-wrap"><img class="cert-main-img" src="imgs/cert-kaiwu.jpg" alt="凱渥模特兒經紀" loading="lazy" decoding="async"/></div>
-      <div class="cert-meta"><span class="cert-chip">時尚產業</span><div class="cert-meta-title">凱渥模特兒經紀</div><div class="cert-meta-sub">時尚產業實習課程結業</div><p class="cert-meta-desc">凱渥為台灣最具規模的時尚模特兒經紀公司。完成此課程代表直接踏入產業核心，了解商業時尚拍攝、造型規劃與品牌合作的實際運作邏輯。</p></div>
+      <div class="cert-meta"><span class="cert-chip">時尚產業</span><div class="cert-meta-title">凱渥模特兒經紀</div><div class="cert-meta-sub">時尚產業實習課程結業</div><p class="cert-meta-desc">完成凱渥時尚產業實習課程，接觸商業拍攝、造型規劃與時尚產業的工作流程。</p></div>
     </article>
     <article class="cert-card" data-cat="award" data-key="award1" data-gtype="cert" role="button" tabindex="0" aria-label="開啟 系所專題競賽 證書">
       <div class="cert-img-wrap"><img class="cert-main-img" src="imgs/cert-award1.jpg" alt="系所專題競賽" loading="lazy" decoding="async"/></div>
-      <div class="cert-meta"><span class="cert-chip">競賽獎項</span><div class="cert-meta-title">系所專題競賽</div><div class="cert-meta-sub">優秀作品獎狀</div><p class="cert-meta-desc">系所畢業專題評審肯定，作品在創意概念、視覺語言呈現與商業應用落地上獲得整體高度評價。</p></div>
+      <div class="cert-meta"><span class="cert-chip">競賽獎項</span><div class="cert-meta-title">系所專題競賽</div><div class="cert-meta-sub">優秀作品獎狀</div><p class="cert-meta-desc">獲系所畢業專題評審肯定，為畢業專題成果之一。</p></div>
     </article>
     <article class="cert-card" data-cat="award" data-key="award2" data-gtype="cert" role="button" tabindex="0" aria-label="開啟 系所專題競賽 證書">
       <div class="cert-img-wrap"><img class="cert-main-img" src="imgs/cert-award2.jpg" alt="系所專題競賽" loading="lazy" decoding="async"/></div>
-      <div class="cert-meta"><span class="cert-chip">競賽獎項</span><div class="cert-meta-title">系所專題競賽</div><div class="cert-meta-sub">人氣作品獎</div><p class="cert-meta-desc">由全系同學票選產生的人氣獎，代表作品在視覺共鳴、概念溝通與情感連結上得到最廣泛的認同。</p></div>
+      <div class="cert-meta"><span class="cert-chip">競賽獎項</span><div class="cert-meta-title">系所專題競賽</div><div class="cert-meta-sub">人氣作品獎</div><p class="cert-meta-desc">由系上同學票選獲得的人氣獎項，為畢業專題成果之一。</p></div>
     </article>  </div>
 </section>
 
@@ -967,10 +967,10 @@ footer{border-color:var(--line)}
 <section id="contact" class="sec-div">
   <div class="s-label" style="justify-content:center;margin-bottom:32px">Contact</div>
 
-  <h2 class="ct-title reveal">一起<br/><em>把想法做好</em></h2>
-  <span class="w-title-en reveal" style="margin-bottom:32px">Let us make something memorable</span>
-  <p class="ct-sub reveal" id="contact-sub">如果你想聊品牌視覺、行銷內容或活動企劃，歡迎直接寄信給我。我很樂意和你交流，讓好想法變成看得見的成果。</p>
-  <a href="mailto:chi093093chi@gmail.com" class="ct-main-btn reveal">寄信給我</a>
+  <h2 class="ct-title reveal">期待<br/><em>進一步認識</em></h2>
+  <span class="w-title-en reveal" style="margin-bottom:32px">For roles, projects, and conversations</span>
+  <p class="ct-sub reveal" id="contact-sub">若想進一步了解我的作品、學習背景或相關經驗，歡迎透過 Email 或電話聯絡。我會很樂意提供更多資料並進一步交流。</p>
+  <a href="mailto:chi093093chi@gmail.com" class="ct-main-btn reveal">Email 聯絡</a>
   <div class="ct-row reveal">
     <a href="mailto:chi093093chi@gmail.com" class="ct-card">
       <div class="ct-ico">✉</div><div class="ct-lbl">Email</div>
@@ -1028,7 +1028,7 @@ footer{border-color:var(--line)}
 </div>
 
 
-<button id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">↑</button>
+<button id="btt" type="button" aria-label="回到頁面頂端">↑</button>
 
 <script id="ps-js">
 (function(){
@@ -1068,6 +1068,10 @@ document.querySelectorAll('a[href^="#"]').forEach(function(a){
   });
 });
 
+var heroScroll=document.getElementById('hero-scroll');
+function scrollToContent(){var contentStart=document.querySelector('.marquee-wrap');if(contentStart)contentStart.scrollIntoView({behavior:'smooth'});}
+if(heroScroll){heroScroll.addEventListener('click',scrollToContent);heroScroll.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();scrollToContent();}});}
+btt.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
 // ── INTRO ──────────────────────────────────────────
 // Uses a fixed delay from script execution rather than window 'load' —
 // 'load' waits for every image on the page, which can stall this on slow connections.
@@ -1326,7 +1330,7 @@ document.getElementById('lb-img').addEventListener('click',function(e){
 (function(){
   var el=document.querySelector('.h-ey-type');
   if(!el)return;
-  var phrases=['Brand Visual · Marketing · Content Creation','Creative Operations · Retail · Event Planning','Adobe Certified · Color Strategy · 3D Art'];
+  var phrases=['Brand Visual · Marketing · Content Creation','Creative Operations · Retail · Event Support','Adobe Certified · Color Strategy · 3D Art'];
   var pi=0,ci=0,deleting=false,pausing=false;
   el.style.borderRight='1px solid rgba(201,169,110,.6)';
   el.style.animation='none';
@@ -1362,7 +1366,7 @@ document.getElementById('lb-img').addEventListener('click',function(e){
   var previousFocus=null,caseScrollY=0;
   var caseData={
   ip:{kicker:'01 · Individual Visual System',title:'畢業主視覺 IP 系統設計',summary:'個人概念專案。以畢業主題為設計情境，從原創角色設定出發，建立主視覺規則並延伸至貼紙、服裝與活動美宣。',images:['imgs/cases/ip-character-sheet.png','imgs/cases/ip-application-sheet.png'],details:[['設計任務','建立一套可被辨識、可延伸使用的畢業主視覺，而非只完成單張主海報。'],['我的角色','負責角色設定、視覺語氣與延伸應用方向的整體規劃。'],['設計產出','完成角色設定與貼紙、服裝、活動美宣等應用提案。']]},
-  scent:{kicker:'02 · Team Consumer Research',title:'香水偏好研究：消費者洞察',summary:'團隊研究，高齊為組員之一。以 207 份有效問卷比較世代、性別、香調與選購因素，將結果整理為品牌溝通可參考的受眾洞察。',images:['imgs/cases/scent-results-sheet.png','imgs/cases/scent-analysis-sheet.png'],details:[['研究問題','不同族群的香水偏好與選購因素是否存在可辨識的差異。'],['研究方法','透過問卷蒐集 207 份有效資料，並進行統計分析與交叉比較。'],['結果轉譯','把研究結果整理為香調溝通、產品定位與受眾理解的參考方向。']]}
+  scent:{kicker:'02 · Team Consumer Insight',title:'香水偏好研究：消費者洞察',summary:'團隊研究，高齊為組員之一。以 207 份有效問卷比較世代、性別、香調與選購因素，將結果整理為品牌溝通可參考的受眾洞察。',images:['imgs/cases/scent-results-sheet.png','imgs/cases/scent-analysis-sheet.png'],details:[['研究問題','不同族群的香水偏好與選購因素是否存在可辨識的差異。'],['研究方法','透過問卷蒐集 207 份有效資料，並進行統計分析與交叉比較。'],['結果轉譯','把研究結果整理為香調溝通、產品定位與受眾理解的參考方向。']]}
 };
   function setText(id,value){document.getElementById(id).textContent=value;}
   function openCase(id){var item=caseData[id];if(!item)return;previousFocus=document.activeElement;caseScrollY=window.scrollY;setText('case-modal-kicker',item.kicker);setText('case-modal-title',item.title);setText('case-modal-summary',item.summary);var gallery=document.getElementById('case-modal-gallery'),details=document.getElementById('case-modal-details');gallery.innerHTML='';gallery.hidden=item.images.length===0;details.innerHTML='';item.images.forEach(function(src,index){var image=document.createElement('img');image.src=src;image.alt=item.title+' 代表畫面 '+(index+1);image.loading='lazy';gallery.appendChild(image);});item.details.forEach(function(detail){var box=document.createElement('div'),title=document.createElement('h4'),copy=document.createElement('p');box.className='case-modal-detail';title.textContent=detail[0];copy.textContent=detail[1];box.appendChild(title);box.appendChild(copy);details.appendChild(box);});modal.classList.add('open');modal.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';document.body.style.position='fixed';document.body.style.top='-'+caseScrollY+'px';document.body.style.width='100%';setTimeout(function(){closeButton.focus();},80);}
