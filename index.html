@@ -512,6 +512,9 @@ footer{border-color:var(--line)}
 .case-modal-kicker{margin-bottom:16px;color:var(--gld);font-size:10px;letter-spacing:.2em;text-transform:uppercase}.case-modal-title{max-width:670px;margin:0;font-family:var(--serif);font-size:clamp(36px,6vw,70px);font-weight:300;line-height:.96;letter-spacing:-.045em}.case-modal-summary{max-width:670px;margin:24px 0 30px;color:var(--muted);font-size:14px;line-height:2}.case-modal-gallery{display:grid;grid-template-columns:1.25fr .75fr .75fr;gap:10px;margin:0 0 28px}.case-modal-gallery img{width:100%;height:205px;object-fit:cover;border:1px solid var(--line);background:#191714}.case-modal-gallery img:first-child{height:270px;grid-row:span 2}.case-modal-gallery img:only-child{grid-column:1/-1;grid-row:auto;height:min(420px,45vh);object-fit:contain;background:#0d0d0c}.case-modal-detail-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.case-modal-detail{min-height:132px;padding:19px;border:1px solid var(--line);background:rgba(255,255,255,.02)}.case-modal-detail h4{margin:0 0 12px;color:var(--gld);font-size:9px;font-weight:500;letter-spacing:.16em}.case-modal-detail p{margin:0;color:var(--muted);font-size:12px;line-height:1.8}
 @media(max-width:700px){#case-modal{padding:10px}.case-modal-panel{max-height:92vh;padding:44px 22px 24px}.case-modal-summary{font-size:13px;margin:18px 0 23px}.case-modal-gallery{grid-template-columns:1fr 1fr;gap:7px}.case-modal-gallery img,.case-modal-gallery img:first-child{height:170px;grid-row:auto}.case-modal-gallery img:first-child{grid-column:1/-1;height:240px}.case-modal-gallery img:only-child{height:260px}.case-modal-detail-grid{grid-template-columns:1fr}.case-modal-detail{min-height:0}.case-open{margin-bottom:13px}}
 
+/* REFINED CASE COVERS */
+.case-cover{opacity:.56;filter:saturate(.92) contrast(1.04);}.case-card:hover .case-cover{opacity:.7}.case-ip .case-cover{opacity:.64}.case-ip .case-art::after{background:linear-gradient(180deg,rgba(8,12,16,.03) 0%,rgba(8,12,16,.22) 42%,rgba(9,11,14,.92) 100%)}.case-scent .case-art::after{background:linear-gradient(180deg,rgba(6,8,6,.06),rgba(7,10,8,.4) 48%,rgba(7,9,8,.94) 100%)}.case-brand .case-art::after{background:linear-gradient(180deg,rgba(6,8,12,.06),rgba(8,10,14,.42) 48%,rgba(8,10,14,.94) 100%)}
+
 </style>
 </head>
 <body>
@@ -680,38 +683,38 @@ footer{border-color:var(--line)}
   <div class="case-grid">
     <article class="case-card case-ip reveal" data-case="ip">
       <div class="case-art case-art-ip" aria-hidden="true">
-        <img class="case-cover" src="imgs/cases/ip-page-3.png" alt="" loading="lazy"/>
-        <div class="case-strip"><img src="imgs/cases/ip-page-2.png" alt="" loading="lazy"/><img src="imgs/cases/ip-cover.png" alt="" loading="lazy"/></div>
+        <img class="case-cover" src="imgs/cases/case-ip-cover.webp" alt="" loading="lazy"/>
+
       </div>
-      <div class="case-kicker">01 · IP Visual Concept</div>
+      <div class="case-kicker">01 · Creative Direction</div>
       <div class="case-copy">
-        <h3>畢業主視覺<br/><em>IP 企劃</em></h3>
-        <p>以「招財貓」為起點，轉化為貼近年輕族群的俏皮角色語言；用漫畫分鏡建立可被延伸、被分享的視覺故事。</p>
-        <div class="case-tags"><span>角色設定</span><span>主視覺</span><span>活動延伸</span></div>
+        <h3>畢業季<br/><em>IP 敘事企劃</em></h3>
+        <p>以畢業季為情境，建立角色設定、視覺語氣與延伸應用，讓主視覺從單張海報發展成可分享的識別體驗。</p>
+        <div class="case-tags"><span>角色策略</span><span>主視覺系統</span><span>延伸應用</span></div>
       </div>
-      <button type="button" class="case-open" data-case="ip" aria-label="查看畢業主視覺 IP 企劃案例細節">查看案例細節</button><div class="case-foot">個人企劃 · 延伸至貼紙、服裝與活動美宣</div>
+      <button type="button" class="case-open" data-case="ip" aria-label="查看畢業季 IP 敘事企劃案例細節">查看案例細節</button><div class="case-foot">個人企劃 · 延伸至貼紙、服裝與活動美宣</div>
     </article>
     <article class="case-card case-scent reveal" data-case="scent">
-      <div class="case-art" aria-hidden="true"><img class="case-cover" src="imgs/cases/scent-cover.png" alt="" loading="lazy"/></div>
+      <div class="case-art" aria-hidden="true"><img class="case-cover" src="imgs/cases/case-scent-cover.webp" alt="" loading="lazy"/></div>
       <div class="case-kicker">02 · Consumer Insight</div>
       <div class="case-copy">
         <div class="case-stat"><strong>207</strong><span>份有效問卷</span></div>
-        <h3>Y / Z 世代<br/><em>香水偏好研究</em></h3>
-        <p>比較世代、性別、香調與選購因素，將統計結果轉為產品開發與品牌溝通建議。</p>
-        <div class="case-tags"><span>問卷研究</span><span>SPSS 分析</span><span>行銷策略</span></div>
+        <h3>香水偏好<br/><em>消費者研究</em></h3>
+        <p>以 207 份有效回覆整理世代、性別與選購因素，轉成品牌溝通與受眾理解的基礎觀察。</p>
+        <div class="case-tags"><span>問卷分析</span><span>受眾洞察</span><span>溝通方向</span></div>
       </div>
-      <button type="button" class="case-open" data-case="scent" aria-label="查看 Y / Z 世代香水偏好研究案例細節">查看案例細節</button><div class="case-foot">團隊研究 · 高齊為組員之一</div>
+      <button type="button" class="case-open" data-case="scent" aria-label="查看 香水偏好消費者研究案例細節">查看案例細節</button><div class="case-foot">團隊研究 · 高齊為組員之一</div>
     </article>
     <article class="case-card case-brand reveal" data-case="brand">
-      <div class="case-art" aria-hidden="true"><img class="case-cover" src="imgs/cases/dycteam-cover.png" alt="" loading="lazy"/></div>
-      <div class="case-kicker">03 · Brand Analysis</div>
+      <div class="case-art" aria-hidden="true"><img class="case-cover" src="imgs/cases/case-brand-cover.webp" alt="" loading="lazy"/></div>
+      <div class="case-kicker">03 · Brand Study</div>
       <div class="case-copy">
         <div class="case-metrics"><span>定位</span><i></i><span>客群</span><i></i><span>SWOT</span></div>
-        <h3>DYCTEAM<br/><em>品牌分析</em></h3>
-        <p>從品牌定位、產品風格、消費者洞察到 SWOT，整理出時尚品牌可採取的行銷觀察。</p>
-        <div class="case-tags"><span>品牌定位</span><span>消費者洞察</span><span>SWOT</span></div>
+        <h3>DYCTEAM<br/><em>品牌觀察</em></h3>
+        <p>以課堂案例為範圍，從定位、風格與客群梳理品牌現況，練習將研究轉為可討論的策略方向。</p>
+        <div class="case-tags"><span>定位盤點</span><span>客群觀察</span><span>SWOT</span></div>
       </div>
-      <button type="button" class="case-open" data-case="brand" aria-label="查看 DYCTEAM 品牌分析案例細節">查看案例細節</button><div class="case-foot">課程品牌分析練習 · 非商業合作案</div>
+      <button type="button" class="case-open" data-case="brand" aria-label="查看 DYCTEAM 品牌觀察案例細節">查看案例細節</button><div class="case-foot">課程品牌分析練習 · 非商業合作案</div>
     </article>
   </div>
 </section>
@@ -931,7 +934,7 @@ footer{border-color:var(--line)}
 <!-- CONTACT -->
 <section id="contact" class="sec-div">
   <div class="s-label" style="justify-content:center;margin-bottom:32px">Contact</div>
-  
+
   <h2 class="ct-title reveal">一起<br/><em>把想法做好</em></h2>
   <span class="w-title-en reveal" style="margin-bottom:32px">Let us make something memorable</span>
   <p class="ct-sub reveal" id="contact-sub">如果你想聊品牌視覺、行銷內容或活動企劃，歡迎直接寄信給我。我很樂意和你交流，讓好想法變成看得見的成果。</p>
@@ -1317,9 +1320,9 @@ document.getElementById('lb-img').addEventListener('click',function(e){
   var closeButton=document.getElementById('case-modal-close');
   var previousFocus=null,caseScrollY=0;
   var caseData={
-    ip:{kicker:'01 · IP Visual Concept',title:'畢業主視覺 IP 企劃',summary:'以「招財貓」作為角色原點，從個性、姿態到視覺語氣建立識別系統，再用漫畫式分鏡把畢業季的祝福轉成容易被理解與分享的故事。',images:['imgs/cases/ip-page-3.png','imgs/cases/ip-page-2.png'],details:[['設計起點','將傳統吉祥符號重新詮釋為俏皮、有記憶點的年輕角色。'],['視覺方法','以角色設定、主視覺與分鏡語言，讓主題能在不同媒材中保持一致。'],['延伸應用','規劃貼紙、服裝與活動美宣，讓 IP 不只是一張主視覺。']]},
-    scent:{kicker:'02 · Consumer Insight',title:'Y / Z 世代香水偏好研究',summary:'以 207 份有效問卷比較不同世代、性別、香調與選購因素，整理出能回應消費者需求的香水溝通方向。本案為團隊研究，高齊為組員之一。',images:['imgs/cases/scent-cover.png'],details:[['研究設計','以問卷蒐集資料，從世代、性別、香調與購買考量進行交叉比較。'],['關鍵發現','年輕族群更在意香味持久、品牌印象與能否表達個人風格。'],['轉譯建議','溝通上可從使用情境、情緒連結與個性化選擇切入。']]},
-    brand:{kicker:'03 · Brand Analysis',title:'DYCTEAM 品牌分析',summary:'從品牌定位、產品風格、消費者洞察到 SWOT，將分散的品牌資訊整理成可討論的分析框架。本案為課程品牌分析練習，非商業合作案。',images:['imgs/cases/dycteam-cover.png'],details:[['品牌定位','辨認品牌調性與核心風格，建立後續分析的共同基準。'],['目標客群','從產品與風格線索推敲可能的受眾輪廓與需求。'],['策略整理','透過 SWOT 盤點內外部條件，提出可延伸的溝通方向。']]}
+    ip:{kicker:'01 · Creative Direction',title:'畢業季 IP 敘事企劃',summary:'以「招財貓」作為角色原點，從個性、姿態到視覺語氣建立識別系統，再用漫畫式分鏡把畢業季的祝福轉成容易被理解與分享的故事。',images:['imgs/cases/case-ip-cover.webp'],details:[['設計起點','將傳統吉祥符號重新詮釋為俏皮、有記憶點的年輕角色。'],['視覺方法','以角色設定、主視覺與分鏡語言，讓主題能在不同媒材中保持一致。'],['延伸應用','規劃貼紙、服裝與活動美宣，讓 IP 不只是一張主視覺。']]},
+    scent:{kicker:'02 · Consumer Insight',title:'香水偏好消費者研究',summary:'以 207 份有效問卷比較不同世代、性別、香調與選購因素，整理出能回應消費者需求的香水溝通方向。本案為團隊研究，高齊為組員之一。',images:['imgs/cases/case-scent-cover.webp'],details:[['研究設計','以問卷蒐集資料，從世代、性別、香調與購買考量進行交叉比較。'],['關鍵發現','年輕族群更在意香味持久、品牌印象與能否表達個人風格。'],['轉譯建議','溝通上可從使用情境、情緒連結與個性化選擇切入。']]},
+    brand:{kicker:'03 · Brand Study',title:'DYCTEAM 品牌觀察',summary:'從品牌定位、產品風格、消費者洞察到 SWOT，將分散的品牌資訊整理成可討論的分析框架。本案為課程品牌分析練習，非商業合作案。',images:['imgs/cases/case-brand-cover.webp'],details:[['品牌定位','辨認品牌調性與核心風格，建立後續分析的共同基準。'],['目標客群','從產品與風格線索推敲可能的受眾輪廓與需求。'],['策略整理','透過 SWOT 盤點內外部條件，提出可延伸的溝通方向。']]}
   };
   function setText(id,value){document.getElementById(id).textContent=value;}
   function openCase(id){var item=caseData[id];if(!item)return;previousFocus=document.activeElement;caseScrollY=window.scrollY;setText('case-modal-kicker',item.kicker);setText('case-modal-title',item.title);setText('case-modal-summary',item.summary);var gallery=document.getElementById('case-modal-gallery'),details=document.getElementById('case-modal-details');gallery.innerHTML='';details.innerHTML='';item.images.forEach(function(src,index){var image=document.createElement('img');image.src=src;image.alt=item.title+' 代表畫面 '+(index+1);image.loading='lazy';gallery.appendChild(image);});item.details.forEach(function(detail){var box=document.createElement('div'),title=document.createElement('h4'),copy=document.createElement('p');box.className='case-modal-detail';title.textContent=detail[0];copy.textContent=detail[1];box.appendChild(title);box.appendChild(copy);details.appendChild(box);});modal.classList.add('open');modal.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';document.body.style.position='fixed';document.body.style.top='-'+caseScrollY+'px';document.body.style.width='100%';setTimeout(function(){closeButton.focus();},80);}
