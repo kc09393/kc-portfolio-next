@@ -2,7 +2,7 @@
 <html lang="zh-TW">
 <head>
 <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'sha256-AXtlFnO9KMggmn9er2nSgfz3vBm2CHOJ6QzAjwMoU64=' 'sha256-dXxoeELQyvSIAq5Ud1vXgUpLarUVzS8vUITvceGxzK4='; connect-src 'self'; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'; upgrade-insecure-requests"/>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'sha256-Pa6+AVN7M9wKFDeoMcH/HdPxhlFhkkvpcIQKAqDNIhk=' 'sha256-dXxoeELQyvSIAq5Ud1vXgUpLarUVzS8vUITvceGxzK4='; connect-src 'self'; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'; upgrade-insecure-requests"/>
 <meta name="referrer" content="strict-origin-when-cross-origin"/>
 <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()"/>
 <meta name="description" content="KC 高齊的個人作品集：收錄品牌視覺、內容製作、3D 視覺與消費者研究作品，並整理相關實務經驗。"/>
@@ -526,7 +526,7 @@ footer{border-color:var(--line)}
 /* REAL CASE EVIDENCE */
 .case-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.case-card,.case-ip{min-height:0;padding:28px}.case-evidence{position:relative;margin:24px 0 0;border:1px solid rgba(226,196,140,.28);background:#e8e2d6;aspect-ratio:16/9;overflow:hidden}.case-evidence img{display:block;width:100%;height:100%;object-fit:contain}.case-copy{margin-top:21px!important}.case-open{margin-top:auto!important}.case-card::after{width:38px;height:38px}.case-scent{background:linear-gradient(145deg,#151713,#0d0e0d 76%)}@media(max-width:700px){.case-grid{grid-template-columns:1fr;gap:14px}.case-card,.case-ip{min-height:0;padding:22px}.case-evidence{margin-top:19px}.case-copy{margin-top:19px!important}.case-card h3{font-size:32px}}
 
-.skip-link{position:fixed;top:-60px;left:20px;z-index:9999;background:var(--gld);color:#1c1a17;padding:8px 16px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;border-radius:2px;transition:top .2s}.skip-link:focus{top:20px}</style>
+.skip-link{position:fixed;top:-60px;left:20px;z-index:9999;background:var(--gld);color:#1c1a17;padding:8px 16px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;border-radius:2px;transition:top .2s}.skip-link:focus{top:20px}@keyframes introSafetyHide{to{opacity:0;visibility:hidden}}#intro{animation:introSafetyHide .01s linear 5s forwards}</style>
 </head>
 <body>
 
@@ -1071,7 +1071,6 @@ document.querySelectorAll('a[href^="#"]').forEach(function(a){
 var heroScroll=document.getElementById('hero-scroll');
 function scrollToContent(){var contentStart=document.querySelector('.marquee-wrap');if(contentStart)contentStart.scrollIntoView({behavior:'smooth'});}
 if(heroScroll){heroScroll.addEventListener('click',scrollToContent);heroScroll.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();scrollToContent();}});}
-btt.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
 // ── INTRO ──────────────────────────────────────────
 // Uses a fixed delay from script execution rather than window 'load' —
 // 'load' waits for every image on the page, which can stall this on slow connections.
@@ -1092,6 +1091,7 @@ window.addEventListener('scroll',updateProgress,{passive:true});
 
 // ── NAV + SIDEBAR ──────────────────────────────────
 var nav=document.getElementById('nav'),btt=document.getElementById('btt');
+if(btt){btt.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});}
 var navLinks=document.querySelectorAll('.nav-links a[data-sec]');
 var sdDots=document.querySelectorAll('.sd-dot[data-sec]');
 var sections=[];
