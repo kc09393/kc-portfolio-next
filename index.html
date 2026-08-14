@@ -2,7 +2,7 @@
 <html lang="zh-TW">
 <head>
 <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'sha256-Pa6+AVN7M9wKFDeoMcH/HdPxhlFhkkvpcIQKAqDNIhk=' 'sha256-9zA+CnSmdT+KJO4JO/4GxyJjoQYWosTmbmM3abWJ1LI='; connect-src 'self'; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'; upgrade-insecure-requests"/>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'sha256-Pa6+AVN7M9wKFDeoMcH/HdPxhlFhkkvpcIQKAqDNIhk=' 'sha256-ryEejsyGyqxN6fF57iwDNkRiGzVGqNs0km7LoXu+nKE='; connect-src 'self'; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'; upgrade-insecure-requests"/>
 <meta name="referrer" content="strict-origin-when-cross-origin"/>
 <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()"/>
 <meta name="description" content="KC 高齊的個人作品集：收錄品牌視覺、內容製作、3D 視覺、互動數位產品與消費者研究作品，並整理相關實務經驗。"/>
@@ -720,7 +720,7 @@ footer{border-color:var(--line)}
     </div>
     <span class="w-idx">02</span>
   </div>
-  <p class="case-intro reveal">從視覺系統、消費者研究到互動網站，這三個案例完整呈現我如何釐清任務、整理內容並完成可被閱讀或使用的成果。</p>
+  <p class="case-intro reveal">從視覺系統、消費者研究到互動工具，這四個案例呈現我如何釐清任務、整理內容並完成可被閱讀或使用的成果。</p>
 
 
 
@@ -770,6 +770,21 @@ footer{border-color:var(--line)}
     </div>
     <button type="button" class="case-open" data-case="lab" aria-label="查看 Blender 材質節點學習站案例內容">查看案例內容</button>
     <div class="case-foot">個人獨立開發 · 產品企劃、介面與前端實作</div>
+  </article>
+  <article class="case-card case-planner reveal" data-case="planner">
+    <span class="case-index" aria-hidden="true">04</span>
+    <div class="case-kicker">Independent Concept Tool</div>
+    <div class="case-evidence">
+      <img src="imgs/cases/brand-content-planner.svg" alt="服飾品牌內容企劃工具的三步驟操作畫面" loading="lazy"/>
+    </div>
+    <div class="case-copy">
+      <p class="case-type">Role · Product Concept &amp; Interface Design</p>
+      <h3>服飾品牌<br/><em>內容企劃工具</em></h3>
+      <p>用三個簡單選擇，協助小型品牌整理視覺重點、資訊順序與發布前檢查，讓做素材前先有清楚方向。</p>
+      <div class="case-tags"><span>內容企劃</span><span>互動介面</span><span>品牌溝通</span></div>
+    </div>
+    <button type="button" class="case-open" data-case="planner" aria-label="查看服飾品牌內容企劃工具案例內容">查看案例內容</button>
+    <div class="case-foot">個人概念工具 · 企劃邏輯與互動介面</div>
   </article>
 </div>
 </section>
@@ -1375,7 +1390,8 @@ document.getElementById('lb-img').addEventListener('click',function(e){
   var caseData={
   ip:{kicker:'01 · Individual Visual System',title:'畢業主視覺 IP 系統設計',summary:'個人概念專案。以畢業主題為設計情境，從原創角色設定出發，建立主視覺規則並延伸至貼紙、服裝與活動美宣。',process:['題目設定：以畢業主題延伸可辨識的原創角色。','系統建立：整理角色、視覺語氣與延伸應用方向。','應用落地：完成貼紙、服裝與活動美宣等提案。'],images:['imgs/cases/ip-character-sheet.png','imgs/cases/ip-application-sheet.png'],details:[['設計任務','建立一套可被辨識、可延伸使用的畢業主視覺，而非只完成單張主海報。'],['我的角色','負責角色設定、視覺語氣與延伸應用方向的整體規劃。'],['設計產出','完成角色設定與貼紙、服裝、活動美宣等應用提案。']]},
   scent:{kicker:'02 · Team Consumer Insight',title:'香水偏好研究：消費者洞察',summary:'團隊研究，高齊為組員之一。以 207 份有效問卷比較世代、性別、香調與選購因素，將結果整理為品牌溝通可參考的受眾洞察。',process:['定義研究問題：聚焦世代、性別、香調與選購因素。','蒐集與比較：整理 207 份有效問卷，進行統計與交叉比較。','轉譯洞察：將資料整理為品牌溝通與受眾理解的參考。'],images:['imgs/cases/scent-results-sheet.png','imgs/cases/scent-analysis-sheet.png'],details:[['研究問題','不同族群的香水偏好與選購因素是否存在可辨識的差異。'],['研究方法','透過問卷蒐集 207 份有效資料，並進行統計分析與交叉比較。'],['結果轉譯','把研究結果整理為香調溝通、產品定位與受眾理解的參考方向。']]},
-  lab:{kicker:'03 · Independent Digital Product',title:'Blender 材質節點學習站',summary:'個人獨立開發的雙語互動學習網站。把材質節點從「看不懂的設定」整理為能查、能做、能立即看見結果的練習流程。',process:['規劃學習流程：把複雜節點拆成可查閱、可實作的內容。','製作互動工具：加入自由接線、即時 3D 預覽與步驟驗證。','建立持續使用性：提供雙語百科、教學、參考表與疑難排解。'],images:['imgs/cases/blender-node-lab.png'],details:[['使用者需求','讓剛接觸 Blender 材質節點的使用者，不必只靠影片反覆暫停，也能理解每個節點的用途與連接方式。'],['產品內容','網站包含節點百科、自由接線沙盒、引導式教學、材質參考表與疑難排解，提供繁中與英文介面。'],['我的實作','自行規劃內容架構與介面，完成可拖拉、接線的節點操作，並加入即時 3D 材質預覽與學習步驟驗證。']],url:'https://kc09393.github.io/blender-node-lab/',urlLabel:'開啟 Blender 材質節點學習站'}
+  lab:{kicker:'03 · Independent Digital Product',title:'Blender 材質節點學習站',summary:'個人獨立開發的雙語互動學習網站。把材質節點從「看不懂的設定」整理為能查、能做、能立即看見結果的練習流程。',process:['規劃學習流程：把複雜節點拆成可查閱、可實作的內容。','製作互動工具：加入自由接線、即時 3D 預覽與步驟驗證。','建立持續使用性：提供雙語百科、教學、參考表與疑難排解。'],images:['imgs/cases/blender-node-lab.png'],details:[['使用者需求','讓剛接觸 Blender 材質節點的使用者，不必只靠影片反覆暫停，也能理解每個節點的用途與連接方式。'],['產品內容','網站包含節點百科、自由接線沙盒、引導式教學、材質參考表與疑難排解，提供繁中與英文介面。'],['我的實作','自行規劃內容架構與介面，完成可拖拉、接線的節點操作，並加入即時 3D 材質預覽與學習步驟驗證。']],url:'https://kc09393.github.io/blender-node-lab/',urlLabel:'開啟 Blender 材質節點學習站'},
+  planner:{kicker:'04 · Independent Concept Tool',title:'服飾品牌內容企劃工具',summary:'個人概念工具。把「要做什麼貼文」這種容易卡住的問題，整理成三個可快速選擇的步驟，協助小型服飾品牌先確認方向，再開始製作素材。',process:['設定溝通目的：選擇新品、優惠或品牌活動。','對應發布情境：選擇 IG 貼文、限時動態或商品頁。','整理執行方向：得到視覺重點、內容順序與檢查項目。'],images:['imgs/cases/brand-content-planner.svg'],details:[['設計題目','為小型服飾品牌提供一個不用登入、不用填複雜表單的內容企劃起點。'],['使用流程','使用者只需完成目的、發布位置與畫面語氣三個選擇，即可取得對應的規劃方向。'],['使用範圍','工具用於整理內容與視覺方向；實際文案與素材仍須依品牌與商品狀況判斷。']],url:'tools/brand-content-planner/',urlLabel:'開啟服飾品牌內容企劃工具'}
 };
   function setText(id,value){document.getElementById(id).textContent=value;}
   function openCase(id){var item=caseData[id];if(!item)return;previousFocus=document.activeElement;caseScrollY=window.scrollY;setText('case-modal-kicker',item.kicker);setText('case-modal-title',item.title);setText('case-modal-summary',item.summary);var process=document.getElementById('case-modal-process'),gallery=document.getElementById('case-modal-gallery'),details=document.getElementById('case-modal-details');process.innerHTML='';item.process.forEach(function(step,index){var processItem=document.createElement('li'),number=document.createElement('span'),copy=document.createElement('span');number.textContent='0'+(index+1);copy.textContent=step;processItem.appendChild(number);processItem.appendChild(copy);process.appendChild(processItem);});gallery.innerHTML='';gallery.hidden=item.images.length===0;details.innerHTML='';item.images.forEach(function(src,index){var image=document.createElement('img');image.src=src;image.alt=item.title+' 代表畫面 '+(index+1);image.loading='lazy';gallery.appendChild(image);});item.details.forEach(function(detail){var box=document.createElement('div'),title=document.createElement('h4'),copy=document.createElement('p');box.className='case-modal-detail';title.textContent=detail[0];copy.textContent=detail[1];box.appendChild(title);box.appendChild(copy);details.appendChild(box);});if(item.url){var link=document.createElement('a');link.className='case-modal-link';link.href=item.url;link.target='_blank';link.rel='noopener noreferrer';link.textContent=item.urlLabel;details.appendChild(link);}modal.classList.add('open');modal.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';document.body.style.position='fixed';document.body.style.top='-'+caseScrollY+'px';document.body.style.width='100%';setTimeout(function(){closeButton.focus();},80);}
